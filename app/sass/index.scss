@@ -62,6 +62,128 @@
     align-items: center;
     justify-content: center;
 
+    .layoutSix {
+        width: 80%;
+        margin-top: 58px;
+        margin-bottom: 58px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 17px;
+        // grid-gap: 60px;
+        // padding: 60 0;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 900;
+            text-align: center;
+
+            @media (max-width: 900px) {
+                font-size: 24px;
+            }
+        }
+
+        button {
+            background-color: #FF3380;
+            color: white;
+            font-size: 20px;
+            font-weight: 900;
+            border-radius: 29.5px;
+            padding: 16px 117px;
+            margin-bottom: 43px;
+
+            @media (max-width: 900px) {
+                scale: 0.9;
+            }
+        }
+    }
+
+    .layoutFour {
+        width: 80%;
+        margin-top: 58px;
+        // height: 400px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 17px;
+        grid-gap: 20px;
+
+        @media (max-width: 900px) {
+            // height: 275px;
+            width: 96%;
+            padding: 0 2%;
+            flex-direction: column;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .top {
+            display: flex;
+            grid-gap: 40px;
+
+            @media (max-width: 900px) {
+                flex-direction: column;
+                grid-gap: 12px;
+            }
+        }
+
+        .bottom {
+            display: flex;
+
+            @media (max-width: 900px) {
+                flex-direction: column;
+                grid-gap: 12px;
+            }
+
+            img.mob {
+                display: none;
+
+                @media (max-width: 900px) {
+                    display: block;
+                }
+            }
+
+            img.des {
+                display: none;
+
+                @media (min-width: 900px) {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .layoutThree {
+        width: 62%;
+        margin-top: 58px;
+        // height: 400px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 17px;
+
+        @media (max-width: 900px) {
+            // height: 275px;
+            width: 96%;
+            padding: 0 2%;
+            flex-direction: column;
+        }
+
+        p {
+            max-width: 412px;
+        }
+    }
+
     .layoutPink {
         width: 100%;
         margin-top: 58px;
@@ -113,7 +235,7 @@
     .layoutTop {
         width: 80%;
         margin-top: 135px;
-        
+
 
         @media (max-width: 900px) {
             width: 96%;

@@ -37,7 +37,7 @@ export const Navigation: React.FC = ({ canGoBack }: props) => {
 					<Image src='favicon.svg' width={50} height={50} alt="" />
 					<div className={styles.middle}>
 						<Link href={`/`}>
-							<p className={styles.active}>Главная</p>
+							<p >Главная</p>
 						</Link>
 						<Link href={`/`}><p>О проекте</p></Link>
 						<Link href={`/`}><p>Наша команда</p></Link>

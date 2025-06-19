@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 import { Navigation } from "./components/nav";
 import Link from "next/link";
+import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
 	title: {
@@ -79,6 +80,7 @@ export default function RootLayout({
 					<div style={{height: 80}}></div>
 				<Navigation />
 				{children}
+				<Footer/>
 			</body>
 		</html>
 	);
