@@ -122,11 +122,11 @@ export default function Home() {
 					<ConsultCard/> */}
 					{/* <Image width={347} height={257} src={"reason1.png"} alt={""} />
 					<Image width={347} height={257} src={"reason2.png"} alt={""} /> */}
-					<img src="/reason1.svg" style={{
+					<img src="/reason1.png" style={{
 						width: 347,
 						height: 257
 					}} alt="" />
-					<img src="/reason2.svg" style={{
+					<img src="/reason2.png" style={{
 						width: 347,
 						height: 257
 					}} alt="" />
