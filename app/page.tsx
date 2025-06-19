@@ -65,7 +65,7 @@ export default function Home() {
 					// @ts-ignore
 					<marquee direction="right"
 						truespeed={true}
-						scrollamount="24">
+						scrollamount="18">
 						поддержка поддержка поддержка поддержка поддержка поддержка
 						поддержка поддержка поддержка поддержка поддержка поддержка
 						поддержка поддержка поддержка поддержка поддержка поддержка
@@ -120,8 +120,8 @@ export default function Home() {
 				<div className="top">
 					{/* <ConsultCard/>
 					<ConsultCard/> */}
-					<Image width={347} height={257} src={"reason1.svg"} alt={""} />
-					<Image width={347} height={257} src={"reson2.svg"} alt={""} />
+					<Image width={347} height={257} src={"reason1.png"} alt={""} />
+					<Image width={347} height={257} src={"reason2.png"} alt={""} />
 				</div>
 				<div className="bottom">
 
