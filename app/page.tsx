@@ -100,7 +100,7 @@ export default function Home() {
 				}}
 				className="layoutThree animated animatedFadeInUp fadeInUp">
 				<Image width={407} height={407} src={"three.png"} alt={""} />
-				<p className="animated15 animatedFadeInUp fadeInUp">
+				<p className="animated2 animatedFadeInUp fadeInUp">
 					Можно ли в глобальном смысле справиться без психологической составляющей?
 					<br />
 					<br />
@@ -120,8 +120,16 @@ export default function Home() {
 				<div className="top">
 					{/* <ConsultCard/>
 					<ConsultCard/> */}
-					<Image width={347} height={257} src={"reason1.png"} alt={""} />
-					<Image width={347} height={257} src={"reason2.png"} alt={""} />
+					{/* <Image width={347} height={257} src={"reason1.png"} alt={""} />
+					<Image width={347} height={257} src={"reason2.png"} alt={""} /> */}
+					<img src="/reason1.svg" style={{
+						width: 347,
+						height: 257
+					}} alt="" />
+					<img src="/reason2.svg" style={{
+						width: 347,
+						height: 257
+					}} alt="" />
 				</div>
 				<div className="bottom">
 
