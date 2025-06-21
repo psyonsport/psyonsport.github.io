@@ -120,6 +120,7 @@ export default function Home() {
 				<div className="top">
 					{/* <ConsultCard/>
 					<ConsultCard/> */}
+					
 					{/* <Image width={347} height={257} src={"reason1.png"} alt={""} />
 					<Image width={347} height={257} src={"reason2.png"} alt={""} /> */}
 					<img src="/reason1.png" style={{
