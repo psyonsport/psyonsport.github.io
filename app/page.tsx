@@ -100,7 +100,7 @@ export default function Home() {
 				}}
 				className="layoutThree animated animatedFadeInUp fadeInUp">
 				<Image width={407} height={407} src={"three.png"} alt={""} />
-				<p className="animated2 animatedFadeInUp fadeInUp">
+				<p className="animated15 animatedFadeInUp fadeInUp">
 					Можно ли в глобальном смысле справиться без психологической составляющей?
 					<br />
 					<br />
