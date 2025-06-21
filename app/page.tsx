@@ -137,18 +137,20 @@ export default function Home() {
 					<Image className="mob" width={350} height={350} src={"reason.svg"} alt={""} />
 					{/* <ConsultCard/> */}
 
-					{/* <Image width={347} height={257} src={"reason3.svg"} alt={""} /> */}
-					<img src="/reason3.svg" style={{
+					<Image width={347} height={257} src={"reason3.svg"} alt={""} />
+					{/* <Image src="/reason3.png" style={{
 						width: 347,
 						height: 257
-					}} alt="" />
+					}} alt="" /> */}
+
 					<Image className="des" width={350} height={350} src={"reason.svg"} alt={""} />
 					{/* <ConsultCard/> */}
-					{/* <Image width={347} height={257} src={"reason4.svg"} alt={""} /> */}
-					<img src="/reason4.svg" style={{
+					<Image width={347} height={257} src={"reason4.png"} alt={""} />
+					
+					{/* <Image src="/reason4.png" style={{
 						width: 347,
 						height: 257
-					}} alt="" />
+					}} alt="" /> */}
 				</div>
 			</div>
 			<div className="layoutSix">
