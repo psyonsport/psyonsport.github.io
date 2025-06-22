@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 		url: 'https://github.com/m9m9ra'
 	},
 	openGraph: {
-		title: "M9M9Ra | Development",
-		description: "Индивидуальная консультация спортивного психолога",
-		url: "https://m9m9ra.github.io",
-		siteName: "m9m9ra.github.io",
+		title: "Спортивный психолог | Калининград",
+		description: "Спортивный психолог принимает по адресу г. Калининград, Ленинский проспект 131, кабинет 408 (БЦ Панорама)",
+		url: "https://psy-on-sport.ru",
+		siteName: "psy-on-sport.ru",
 		images: [
 			{
 				url: "https://m9m9ra.github.io/og.png",

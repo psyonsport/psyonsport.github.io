@@ -8,6 +8,8 @@ export function generateMetadata(): Metadata {
 	};
 }
 
+// Спортивный психолог принимает по адресу г. Калининград, Ленинский проспект 131, кабинет 408 (БЦ Панорама)
+
 export default function BlogLayout({
 	children,
 }: { children: React.ReactNode }) {
