@@ -72,6 +72,7 @@ export default function RootLayout({
 				/>
 				<meta name="yandex-verification" content="4213751e39cb041d" /> */}
 				{/* <!-- Yandex.RTB --> */}
+				<meta name="google-site-verification" content="43tqGU0XjcnZhQzpOflk3gwg_W1-Hxhk330_8iGubGs" />
 				<script>window.yaContextCb=window.yaContextCb||[]</script>
 				<script src="https://yandex.ru/ads/system/context.js" async></script>
 			</head>
