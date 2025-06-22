@@ -1,12 +1,9 @@
 User-agent: *
 Allow: /
 Allow: /?hl=
-Allow: /projects
-Allow: /contacts
-Allow: /blog
-Allow: /projects/xrunner
-Allow: /projects/upilot
-Allow: /projects/yareka
+Allow: /about
+Allow: /teams
+Allow: /when-to-contact
 Disallow: /search
 Disallow: /sdch
 Disallow: /groups

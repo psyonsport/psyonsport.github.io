@@ -41,7 +41,7 @@ export const Navigation: React.FC = ({ canGoBack }: props) => {
 						</Link>
 						<Link href={`/about`}><p>О проекте</p></Link>
 						<Link href={`/teams`}><p>Наша команда</p></Link>
-						<Link href={`/when_to_contact`}><p>Здесь о полезном</p></Link>
+						<Link href={`/when-to-contact`}><p>Здесь о полезном</p></Link>
 					</div>
 					<div onClick={toggleBurger} className={styles.burger}>
 						<div></div>
@@ -55,11 +55,12 @@ export const Navigation: React.FC = ({ canGoBack }: props) => {
 							<X onClick={toggleBurger} />
 						</div>
 						<Link href={`/`}>
-							<p className="active" onClick={toggleBurger}>Главная</p>
+							<p className="link" onClick={toggleBurger}>Главная</p>
 						</Link>
-						<Link href={`/about`}><p onClick={toggleBurger}>О проекте</p></Link>
-						<Link href={`/teams`}><p onClick={toggleBurger}>Наша команда</p></Link>
-						<Link href={`/when_to_contact`}><p onClick={toggleBurger}>Здесь о полезном</p></Link>
+						<Link href={`/about`}><p className="link" onClick={toggleBurger}>О проекте</p></Link>
+						<Link href={`/teams`}><p className="link" onClick={toggleBurger}>Наша команда</p></Link>
+						<Link href={`/when-to-contact`}><p className="link" onClick={toggleBurger}>Здесь о полезном</p></Link>
+						<br />
 					</div> : null
 				}
 			</header>
