@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 		},
 	},
 	icons: {
-		shortcut: process.env.NODE_ENV === "development" ? "favicon.svg" : process.env.PAGES_BASE_PATH + 'favicon.svg',
+		shortcut: 'favicon.svg',
 	},
 };
 const inter = Inter({
