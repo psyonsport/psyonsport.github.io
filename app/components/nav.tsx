@@ -48,6 +48,9 @@ export const Navigation: React.FC = ({ canGoBack }: props) => {
 						<div></div>
 						<div></div>
 					</div>
+					<div className={styles.contactme}>
+						<Image width={30} height={30} src={'telegram.svg'} alt={'oops..'} />
+					</div>
 				</div>
 				{burger ?
 					<div className={styles.menu} >

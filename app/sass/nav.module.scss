@@ -70,7 +70,7 @@
         }
 
         .burger {
-            display: grid;
+            display: none;
             grid-gap: 4px;
 
             div {
@@ -79,10 +79,30 @@
                 height: 3px;
                 border-radius: 8px;
             }
+
+            @media (max-width: 900px) {
+                display: grid;
+            }
         }
 
         .burger:hover {
             cursor: pointer;
+            transition: 1s;
+            scale: 1.1;
+        }
+
+        .contactme {
+            display: block;
+            @media (max-width: 900px) {
+                display: none;
+            }
+
+        }
+
+        .contactme:hover {
+            cursor: pointer;
+            transition: 1s;
+            scale: 1.1;
         }
     }
 }

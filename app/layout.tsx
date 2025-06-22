@@ -9,10 +9,10 @@ import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
 	title: {
-		default: "Спортивная психология",
+		default: "Спортивный психолог г. Калининград",
 		template: "%s",
 	},
-	description: "Индивидуальная консультация спортивного психолога",
+	description: "Индивидуальная консультация спортивного психолога в г. Калининград",
 	authors: {
 		name: 'M9M9Ra | Development',
 		url: 'https://github.com/m9m9ra'
