@@ -3,8 +3,8 @@ import { Metadata } from "next";
 // set dynamic metadata
 export function generateMetadata(): Metadata {
 	return {
-	  title: 'M9M9Ra | Блог',
-	  description: 'M9M9Ra | Development: Flutter & React Native. You have any question ?',
+	  title: 'Спортивная психология | Блог',
+	  description: 'это группа энтузиастов, объединённых общей целью: помогать спортсменам преодолевать трудности и достигать внутренней гармонии.',
 	};
 }
 

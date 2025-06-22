@@ -31,11 +31,11 @@ export const Footer: React.FC = () => {
             </footer>
             <nav className="bottom-nav">
                 <Link href={`https://t.me/psy_on_sport39`}><p className="active" >Контакты</p></Link>
-                <Link href={`/`}><p >О проекте</p></Link>
+                <Link href={`/about`}><p >О проекте</p></Link>
                 <Link href={`/`}><p >Мероприятия</p></Link>
 
-                <Link href={`/`}><p >Команда проекта</p></Link>
-                <Link href={`/`}><p >Когда стоит обратиться к специалисту?</p></Link>
+                <Link href={`/teams`}><p >Команда проекта</p></Link>
+                <Link href={`/when_to_contact`}><p >Когда стоит обратиться к специалисту?</p></Link>
             </nav>
         </>
     );

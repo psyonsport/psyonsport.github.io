@@ -139,8 +139,8 @@ export default function Home() {
 
 					{/* <Image width={347} height={257} src={"reason3.svg"} alt={""} /> */}
 					<img src="/reason3.png" style={{
-						width: 347,
-						height: 257
+						width: 350,
+						height: 246
 					}} alt="" />
 
 					<Image className="des" width={350} height={350} src={"reason.svg"} alt={""} />
@@ -148,8 +148,8 @@ export default function Home() {
 					{/* <Image width={347} height={257} src={"reason4.png"} alt={""} /> */}
 					
 					<img src="/reason4.png" style={{
-						width: 347,
-						height: 257
+						width: 346,
+						height: 216
 					}} alt="" />
 				</div>
 			</div>

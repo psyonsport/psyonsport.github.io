@@ -246,11 +246,19 @@
             display: flex;
             justify-content: space-between;
 
+            @media (max-width: 1000px) {
+                flex-direction: column-reverse;
+            }
+
             .left {
                 h1 {
                     font-size: 36px;
                     font-weight: 900;
                     padding-bottom: 25px;
+
+                    @media (max-width: 1000px) {
+                        font-size: 24px;
+                    }
                 }
 
                 button {
@@ -271,7 +279,7 @@
 
             img {
                 @media (max-width: 1000px) {
-                    display: none;
+                    // display: none;
                 }
             }
         }

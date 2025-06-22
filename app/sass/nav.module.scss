@@ -14,9 +14,13 @@
     z-index: 999999;
 
     @media (max-width: 900px) {
-        background-color: #ffd500a9;
+        // background-color: #ffd500a9;
         // background-color: #ffbdd6b3;
-        border-radius: 0 0 16px 16px;
+        background-color: white;
+        border-radius: 0px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.495);
+        height: 60px;
+        // border-radius: 0 0 16px 16px;
     }
 
     .layout {
