@@ -78,9 +78,7 @@ export default function Home() {
 				}}>Многие считают, что...</h2>
 				<p className={scrollPositon >= 100 ? 'animated15 animatedFadeInUp fadeInUp' : ''}>
 					Успех в спорте зависит преимущественно от физических усилий,
-					но в действительности побеждает тот, кто психологически более
-					{/* <br /> */}
-					подготовлен.
+					но в действительности побеждает тот, кто психологически более подготовлен.
 				</p>
 				<p className={scrollPositon >= 100 ? 'animated2 animatedFadeInUp fadeInUp' : ''}>
 					<span style={{
