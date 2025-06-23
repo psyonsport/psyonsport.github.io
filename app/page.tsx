@@ -65,7 +65,7 @@ export default function Home() {
 					// @ts-ignore
 					<marquee direction="right"
 						truespeed={true}
-						scrollamount="18">
+						scrollamount="12">
 						поддержка поддержка поддержка поддержка поддержка поддержка
 						поддержка поддержка поддержка поддержка поддержка поддержка
 						поддержка поддержка поддержка поддержка поддержка поддержка

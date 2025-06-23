@@ -17,13 +17,13 @@ export const Footer: React.FC = () => {
                     <div className='item'>
                         <Image width={30} height={30} src={'vk.svg'} alt={'oops..'} />
                         <p>
-                            <a href="@psy_on_sport39">@psy_on_sport39</a>
+                            <a href="https://m.vk.com/@psy_on_sport39">@psy_on_sport39</a>
                         </p>
                     </div>
                     <div className='item'>
                         <Image width={30} height={30} src={'email.svg'} alt={'oops..'} />
                         <p>
-                            <a href="https://t.me/psy_on_sport39">psy.on.sport@gmail.com</a>
+                            <a href="mailto:psy.on.sport@gmail.com">psy.on.sport@gmail.com</a>
                         </p>
                     </div>
                 </div>

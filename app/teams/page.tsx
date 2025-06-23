@@ -34,7 +34,7 @@ export default function Example() {
 					width={561}
 					height={510}
 					alt="" />
-				<Image src="team/lexa.png"
+				<Image src="team/varya.png"
 					width={561}
 					height={510}
 					alt="" />
