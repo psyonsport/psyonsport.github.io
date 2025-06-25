@@ -2,6 +2,7 @@
 // @ts-ignore
 import Image from 'next/image';
 import './about.scss';
+import { SendButton } from '../components/sendButton';
 
 export default function About() {
 
@@ -155,6 +156,9 @@ export default function About() {
 					width={40}
 					height={40}
 					alt={''} />
+			</div>
+			<div className="reverseform">
+				<SendButton/>
 			</div>
 		</div>
 	);

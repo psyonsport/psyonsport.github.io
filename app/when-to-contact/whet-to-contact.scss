@@ -6,6 +6,18 @@
     align-items: center;
     justify-content: center;
 
+    .reverse {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 64px;
+
+        @media (max-width: 900px) {
+            margin-bottom: 22px;
+            margin-top: 22px;
+        }
+    }
+
     .end {
         background-color: #FFF4BB;
         border-radius: 16px;
@@ -23,6 +35,8 @@
             align-items: center;
             align-items: stretch;
             border-radius: 8px;
+
+            margin-bottom: 42px;
         }
 
         p {
@@ -116,6 +130,10 @@
 
             @media (max-width: 900px) {
                 padding: 5% 4%;
+
+                br {
+                    display: none;
+                }
             }
         }
     }
@@ -202,6 +220,10 @@
 
                 @media (max-width: 900px) {
                     text-align: left;
+
+                    br {
+                        display: none;
+                    }
                 }
 
             }

@@ -38,7 +38,7 @@ export default function Home() {
 							Индивидуальная <br />консультация<br /> спортивного психолога
 						</h1>
 						<button className="animated15 animatedFadeInUp fadeInUp">
-							<a href="https://t.me/psy_on_sport39" target="_blank">Записаться</a>
+							<a href="https://t.me/psy_on_sport" target="_blank">Записаться</a>
 						</button>
 						<p className="animated2 animatedFadeInUp fadeInUp">
 							Мы верим, что успех в <span style={{

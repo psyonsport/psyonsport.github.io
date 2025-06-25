@@ -1,4 +1,5 @@
 "use client";
+import { SendButton } from '../components/sendButton';
 import './whet-to-contact.scss';
 import Image from 'next/image';
 
@@ -17,8 +18,7 @@ export default function Example() {
 					<p className="ql">«</p>
 					<p className='text'>
 						Огромное количество талантливых, перспективных и просто
-						<br />
-						отличных ребят бросают спорт, не видят результата
+						<br /> отличных ребят бросают спорт, не видят результата
 						<br />
 						и недооценивают себя и свое место в спорте. Они завершают карьеру
 						<br />
@@ -64,8 +64,7 @@ export default function Example() {
 						fontWeight: 'bolder'
 					}}>Психологическая подготовка</span> - это не только мотивация и позитивный
 					настрой.
-					<br />
-					Это очень конкретные техники, способы и шаги.
+					<br /> Это очень конкретные техники, способы и шаги.
 				</h3>
 			</div>
 
@@ -147,6 +146,9 @@ export default function Example() {
 						fontWeight: 'bold'
 					}}>бесплатного</span> тренинга или семинара для вашей команды.
 				</p>
+			</div>
+			<div className="reverse">
+				<SendButton/>
 			</div>
 		</div>
 	);
