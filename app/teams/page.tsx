@@ -19,7 +19,21 @@ export default function Example() {
 				</p>
 			</div>
 			<div className="main">
-
+				<Image src="team/gladis.png"
+					width={561}
+					height={510}
+					alt="" />
+				<div className="gladis">
+					<h2>
+						Тренер олимпийского тхэквондо.
+						Лучший инструктор ФК в России.
+						Лучший инструктор ФК г. Калининграда и Калининградской области.
+						Награждена Почетной грамотой Министерства просвещения РФ
+					</h2>
+					<p>
+						«За добросовестный труд, достижения и заслуги в сфере образования»
+					</p>
+				</div>
 			</div>
 			<div className="card-container">
 				<Image src="team/irina.png"
